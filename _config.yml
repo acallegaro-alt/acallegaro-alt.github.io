@@ -4,7 +4,7 @@ author: MeSPhA
 #email: acallegaro@gsk.com
 #phone: (650) 576-5403
 #github: https://github.com/tmjam
-about: Open-access cross-disciplinary online magazine
+#about: Open-access cross-disciplinary online magazine
 disqus_shortname: Medical Statistics
 #google_analytics: UA-31048387-6
 avatar_url: /static/img/me.jpg
@@ -40,8 +40,8 @@ urls:
       url: /projects/
     - text: Blogs
       url: /blogs/
-    - text: XML Feed
-      url: /feed.xml
+   # - text: XML Feed
+   #   url: /feed.xml
 # url: "http://localhost:4000"
 #url: "https://tmjam.github.io/tauseef-blog"
 baseurl: ""
