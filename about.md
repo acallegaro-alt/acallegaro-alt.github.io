@@ -9,7 +9,7 @@ permalink: /about/
 
 ## Editorial Board
 The goal of the Editorial board is to decide the topics (and the authors) of the papers to be published. 
-- Biostatistics: Stephen Senn [here]([https://yourwebsite.com](https://scholar.google.com/citations?user=giqwCAEAAAAJ&hl=en)) (not yet confirmed)
+- Biostatistics: [Stephen Senn]([https://yourwebsite.com](https://scholar.google.com/citations?user=giqwCAEAAAAJ&hl=en)) (not yet confirmed)
 - Medicine: to be defined
 - Philosophy: to be defined
 - Arts:  to be defined
