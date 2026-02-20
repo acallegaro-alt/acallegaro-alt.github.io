@@ -34,9 +34,9 @@ share:
   # fb_appid: 1749788565247320
 
 urls:
-    - text: About Me
+    - text: About the Magazine
       url: /about/
-    - text: Projects
+    - text: Publications
       url: /projects/
     - text: Blogs
       url: /blogs/
