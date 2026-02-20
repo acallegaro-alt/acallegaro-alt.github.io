@@ -101,8 +101,6 @@ div.col-sm-3 div.profile-about {
   margin-top: 10px;
   color: #8C8C8C;
 }
-
-/* Updated: smaller circular sidebar avatar */
 div.col-sm-3 img.profile-avatar {
   border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -111,9 +109,8 @@ div.col-sm-3 img.profile-avatar {
   -o-border-radius: 50%;
   margin-left: auto;
   margin-right: auto;
-  width: 96px;            /* reduced size */
-  height: 96px;           /* keep equal for perfect circle */
-  object-fit: cover;      /* cover but keep aspect ratio */
+  width: 150px;
+  height: 150px;
   box-shadow: 0px 5px 15px 0px rgba(0,0,0, 0.4);
   -webkit-box-shadow: 0px 5px 15px 0px rgba(0,0,0, 0.4);
   -moz-box-shadow: 0px 5px 15px 0px rgba(0,0,0, 0.4);
@@ -167,69 +164,9 @@ div.col-sm-3 img.profile-avatar {
   border-top: 1px solid #f0f0f0;
   border-bottom: 1px solid #f0f0f0;
 }
-
-/* Post images: keep them responsive and avoid forced cropping */
 .post-content img,
 .content img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  object-fit: contain;
-}
-
-/* New: responsive square wrapper for the right-side plot (no cropping) */
-.figure-square {
-  width: 700px;           /* preferred square width on wide screens */
-  max-width: 100%;        /* allow shrink on small screens */
-  margin: 0 auto 24px;
-  box-sizing: border-box;
-  position: relative;
-  overflow: visible;      /* ensure full image is visible (no hidden parts) */
-  background: #f6f6f6;    /* optional background to match plot area */
-  display: block;
-  padding: 8px;           /* optional padding if you want spacing */
-}
-
-/* Modern browsers: maintain 1:1 aspect ratio */
-@supports (aspect-ratio: 1 / 1) {
-  .figure-square {
-    aspect-ratio: 1 / 1;
-    height: auto;         /* aspect-ratio + width controls height */
-    padding: 0;           /* remove padding when using aspect-ratio (optional) */
-  }
-  .figure-square img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;  /* show whole image, keep aspect ratio */
-    display: block;
-    margin: 0;
-  }
-}
-
-/* Fallback for browsers without aspect-ratio: constrain image inside square area */
-.figure-square img {
-  max-width: 100%;
-  max-height: 100%;
-  width: auto;
-  height: auto;
-  display: block;
-  margin: auto;
-  object-fit: contain;
-}
-
-/* Responsive tweaks */
-@media (max-width: 900px) {
-  .figure-square {
-    width: 90%;           /* keep square visually smaller on medium screens */
-  }
-}
-@media (max-width: 480px) {
-  div.col-sm-3 {
-    margin-top: 30px;
-  }
-  .figure-square {
-    width: 100%;
-  }
+  max-width: 100%
 }
 
 /* Responsive Conditional */
@@ -238,4 +175,37 @@ div.col-sm-3 img.profile-avatar {
     position: fixed;
     max-width: 255px;
   }
+}
+@media (max-width: 768px) {
+  div.col-sm-3 {
+    margin-top: 30px;
+  }
+}
+
+
+/* Home */
+.home-quick-links {
+  margin-top: 15px;
+}
+.home-quick-links .home-quick-links__link {
+  text-align: center;
+} 
+.header-content {
+  background-image: url('../img/header_bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  height: 300px;
+  margin-bottom: 15px;
+}
+
+.header-content .header-content__message {
+  color: #fff;
+  position: relative;
+  top: 250px;
+  font-size: 1.8em;
+  text-align: center;
+  display: block;
+  text-decoration: underline;
+  text-transform: uppercase;
 }
