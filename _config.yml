@@ -1,13 +1,11 @@
-title: MePhA
-description: Medical Statistics, Philosophy and Arts: online magazine
-author: Andrea Callegaro
-email: acallegaro@gmail.com
-#phone: (650) 576-5403
-github: https://github.com/acallegaro-alt.github.io
-about: "Medical Statistics, Philosophy and Arts" is an open access magazine
-that aims to bring together outstanding, recognized experts in Biostatistics, Medicine, Philosophy and Arts
-to re-think and re-vitalize the fundamentals of Medical Statistics, a discipline so important for the public health.
-#disqus_shortname: programming
+title: MeSPhA
+description: Medical Statistics, Philosophy and Arts
+author: Tauseef Jamadar
+email: tmjam.ahmed@gmail.com
+phone: (650) 576-5403
+github: https://github.com/tmjam
+about: MeSPhA open-access online magazine
+disqus_shortname: programming
 #google_analytics: UA-31048387-6
 avatar_url: /static/img/me.jpg
 
@@ -19,33 +17,33 @@ collections:
     output: true
     permalink: /project/:path/
 
-#social:
-#    - icon: fa-facebook
-#      link: "https://www.facebook.com/tjamadar"
-#    - icon: fa-twitter
-#      link: "https://twitter.com/tmjam3011"
-#    - icon: fa-linkedin
-#      link: "https://www.linkedin.com/in/tauseef-jamadar-5b577913/"
+social:
+    - icon: fa-facebook
+      link: "https://www.facebook.com/tjamadar"
+    - icon: fa-twitter
+      link: "https://twitter.com/tmjam3011"
+    - icon: fa-linkedin
+      link: "https://www.linkedin.com/in/tauseef-jamadar-5b577913/"
     # - icon: fa-stack-exchange
     #   link: "#"
-#    - icon: fa-github
-#      link: "https://github.com/tmjam"
+    - icon: fa-github
+      link: "https://github.com/tmjam"
 
-#share:
-#  twitter_username: tmjam3011
+share:
+  twitter_username: tmjam3011
   # fb_appid: 1749788565247320
 
 urls:
-    - text: About the Magazine
+    - text: About Me
       url: /about/
-    - text: Publications
+    - text: Projects
       url: /projects/
-    - text: Editorial Board
+    - text: Blogs
       url: /blogs/
-#    - text: XML Feed
-#      url: /feed.xml
+    - text: XML Feed
+      url: /feed.xml
 # url: "http://localhost:4000"
-url: "https://acallegaro-alt.github.io/MePhA-blog"
+url: "https://tmjam.github.io/tauseef-blog"
 baseurl: ""
 paginate: 20
 per_page: 20
@@ -54,6 +52,11 @@ markdown: kramdown
 gems:
   - jekyll-paginate
   - jekyll-gist
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
 
 compress_html:
   clippings: all
