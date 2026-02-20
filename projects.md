@@ -4,4 +4,4 @@ title: Publications
 permalink: /projects/
 ---
 
-Publications of the Journal
+Publications of the Journal and relevant literature
