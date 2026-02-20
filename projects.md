@@ -1,7 +1,7 @@
 ---
 layout: project
-title: Projects
+title: Publications
 permalink: /projects/
 ---
 
-Few of my projects. Currently doing more in backend, focused in Python and Django.
+Publications of the Journal
