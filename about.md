@@ -18,7 +18,7 @@ The goal of the Editorial board is to decide the topics (and the authors) of the
 Andrea Callegaro
 
 ## Some details about the Magazine
-- Format: Invitation-only, non–peer review essays. One invited paper published online every 2–3 months on the magazine website.
+- Format: Invitation-only, non–peer review essays. One invited paper published online quartely on the magazine website.
 - First proposed paper: A piece on Bruno de Finetti and how his philosophical engagement helped shape subjective probability which revolutionize statistical thought.
 
 
