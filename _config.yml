@@ -1,10 +1,10 @@
 title: MeSPhA
 description: Medical Statistics, Philosophy and Arts
-author: Andrea Callegaro
-email: acallegaro@gsk.com
+author: MeSPhA
+#email: acallegaro@gsk.com
 #phone: (650) 576-5403
 #github: https://github.com/tmjam
-about: MeSPhA open-access cross-disciplinary online magazine
+about: Open-access cross-disciplinary online magazine
 disqus_shortname: Medical Statistics
 #google_analytics: UA-31048387-6
 avatar_url: /static/img/me.jpg
