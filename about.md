@@ -8,7 +8,7 @@ permalink: /about/
 </p>
 
 ## Editorial Board
-The goal of the Editorial board is to decide the topics (and the authors) of the paper to be published. 
+The goal of the Editorial board is to decide the topics (and the authors) of the papers to be published. 
 - Biostatistics: Stephen Seen (not yet confirmed)
 - Medicine: to be defined
 - Philosophy: to be defined
