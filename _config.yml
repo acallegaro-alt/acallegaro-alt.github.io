@@ -1,6 +1,11 @@
-title: MeSPhA
-description: Medical Statistics, Philosophy and Arts (MeSPhA)
-disqus_shortname: Cross-disciplinary open-access-online magazine
+title: MesPhA
+description: Medical Statistics, Philosophy and Arts (MeSPhA).
+author: Andrea Callegaro
+email: acallegaro@gmail.com
+phone: 
+github: https://github.com/acallegaro-alt
+about: Cross-disciplinary open-access-online magazine.
+#disqus_shortname: programming
 #google_analytics: UA-31048387-6
 avatar_url: /static/img/me.jpg
 
@@ -12,7 +17,31 @@ collections:
     output: true
     permalink: /project/:path/
 
-#url: "https://tmjam.github.io/tauseef-blog"
+social:
+    - icon: fa-facebook
+      link: "https://www.facebook.com/tjamadar"
+    - icon: fa-twitter
+      link: "https://twitter.com/tmjam3011"
+    - icon: fa-linkedin
+      link: "https://www.linkedin.com/in/tauseef-jamadar-5b577913/"
+    # - icon: fa-stack-exchange
+    #   link: "#"
+    - icon: fa-github
+      link: "https://github.com/tmjam"
+
+share:
+  twitter_username: tmjam3011
+  # fb_appid: 1749788565247320
+
+urls:
+    - text: About the Journal
+      url: /about/
+    - text: Publications
+      url: /projects/
+    - text: Blogs
+      url: /blogs/
+# url: "http://localhost:4000"
+url: "https://acallegaro-alt.github.io"
 baseurl: ""
 paginate: 20
 per_page: 20
