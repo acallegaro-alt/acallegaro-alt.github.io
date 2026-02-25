@@ -38,8 +38,8 @@ urls:
       url: /about/
     - text: Publications
       url: /projects/
-    - text: Blogs
-      url: /blogs/
+   # - text: Blogs
+   #   url: /blogs/
 # url: "http://localhost:4000"
 url: "https://acallegaro-alt.github.io"
 baseurl: ""
