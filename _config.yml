@@ -1,60 +1,28 @@
----
-layout: default
----
+title: MeSPhA
+description: Medical Statistics, Philosophy and Arts (MeSPhA)
+disqus_shortname: Cross-disciplinary open-access-online magazine
+#google_analytics: UA-31048387-6
+avatar_url: /static/img/me.jpg
 
-<div id="home">
-<h1>Medical Statistics, Philosophy and Arts (MeSPhA)<span class="text-primary"> </h1>
-  <div class="subheading">Cross-disciplinary open-access-online magazine {{site.phone}} ·
-   <a href="mailto:{{site.email}}">{{site.email}}</a>
-  </div>
-  <hr />
+enableTags: true
+tagarray: []
 
-  <div class="content">
-    <div class="header-content">
-    </div>
-    <div class="row">
-      <div class="col-xs-12">
-        <p>
-         Medical Statistics, Philosophy and Arts (MeSPha) is an online, open access magazine that aims to bring together 
-          outstanding, recognized experts in Biostatistics, Medicine, Philosophy and Arts 
-          to re-think and re-vitalize the fundamentals of Medical Statistics, 
-          a discipline so important for the public heath.
-        </p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-xs-12">
-          <small>Learn more about the journal <a href="{{ site.url }}/about/">here</a>.</small>
-      </div>
-    </div>
-    <div class="row home-quick-links">
-      <div class="col-md-3 home-quick-links__link">
-        <a href="{{ site.url }}/projects">
-          <span class="fa-stack fa-2x">
-            <i class="fa fa-circle fa-stack-2x text-primary"></i>
-            <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
-          </span>
-          <h4>Publications</h4>
-        </a>
-      </div>
-      <div class="col-md-3 home-quick-links__link">
-        <a href="{{ site.url }}/blogs">
-          <span class="fa-stack fa-2x">
-            <i class="fa fa-circle fa-stack-2x text-primary"></i>
-            <i class="fa fa-list-ul fa-stack-1x fa-inverse"></i>
-          </span>
-          <h4>Blogs</h4>
-        </a>
-      </div>
-      <div class="col-md-3 home-quick-links__link">
-        <a href="{{ site.url }}/about">
-          <span class="fa-stack fa-2x">
-            <i class="fa fa-circle fa-stack-2x text-primary"></i>
-            <i class="fa fa-street-view fa-stack-1x fa-inverse"></i>
-          </span>
-          <h4>About the Magazine</h4>
-        </a>
-      </div>
-    </div>
-  </div>
-</div><!-- end #home -->
+collections:
+  project:
+    output: true
+    permalink: /project/:path/
+
+#url: "https://tmjam.github.io/tauseef-blog"
+baseurl: ""
+paginate: 20
+per_page: 20
+paginate_path: "/blogs/page/:num/"
+markdown: kramdown
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
