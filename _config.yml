@@ -34,10 +34,10 @@ collections:
   # fb_appid: 1749788565247320
 
 urls:
-    - text: About the Journal
-      url: /about/
     - text: Publications
       url: /projects/
+       - text: About the Magazine
+      url: /about/
    # - text: Blogs
    #   url: /blogs/
 # url: "http://localhost:4000"
