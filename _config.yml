@@ -41,7 +41,7 @@ urls:
    # - text: Blogs
    #   url: /blogs/
 # url: "http://localhost:4000"
-#url: "https://acallegaro-alt.github.io"
+url: "https://acallegaro-alt.github.io"
 baseurl: ""
 paginate: 20
 per_page: 20
