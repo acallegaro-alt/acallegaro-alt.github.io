@@ -191,21 +191,26 @@ div.col-sm-3 img.profile-avatar {
   text-align: center;
 } 
 .header-content {
-  background-image: url('../img/header_bg.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-y: center;
-  height: 300px;
+  position: relative;
+  width: 100%;
   margin-bottom: 15px;
+  background-color: #000;
 }
 
-.header-content .header-content__message {
+.header-content__img {
+  display: block;
+  width: 100%;
+  height: auto;           /* preserves full image, no cropping */
+}
+
+.header-content__message {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
   color: #fff;
-  position: relative;
-  top: 250px;
   font-size: 1.8em;
   text-align: center;
-  display: block;
   text-decoration: underline;
   text-transform: uppercase;
 }
