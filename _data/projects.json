@@ -1,19 +1,9 @@
 [
 	{
-		"name": "De Finetti paper: Probabilismo",
-		"image": "probabilismo.jpg",
-		"description": "Bruno de Finetti’s Probabilismo defends a subjective, operational view of probability 
-		based on coherent betting odds and exchangeability, rejecting objective chance. Influenced by his mathematics 
-		and pragmatic/operationalist leanings, de Finetti’s ideas reshaped debates on probability and remain influential.",
-		"url": "https://www.scienzanuova.org/wp-content/uploads/probabilismo-DE-FINETTI.pdf",
-		#"date": "Jan 2014",
-		"tags": ["Literature"]
-	},
-	{
 		"name": "Proposed inaugural piece (subject to Board approval) on Bruno De Finetti",
 		"image": "header_bg.jpg",
 		"date": "2027",
-		"description": "Proposed inaugural piece (subject to Board approval).",
+		"description": "An essay on de Finetti and how his philosophical work shaped subjective probability, transforming statistical thought.",
 		"tags": ["Publications"]
 	}
 ]
