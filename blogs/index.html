@@ -1,44 +1,44 @@
----
-layout: page
-title: Blogs
----
-
-<div id="blogs">
-
-  <ol class="posts">
-    {% for post in paginator.posts %}
-      <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a> &raquo; <i><span>{{ post.date | date_to_string }}</span></i></li>
-    {% endfor %}
-  </ol>
-
-  <!-- Pagination links -->
-  {% if paginator.total_pages > 1 %}
-    <ul class="pagination pagination-sm">
-      {% if paginator.previous_page %}
-        <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | prepend: site.url | replace: '//', '/' }}">&laquo;</a></li>
-      {% else %}
-        <li class="disabled"><span aria-hidden="true">&laquo;</span></li>
-      {% endif %}
-
-      <li><a href="{{ site.url }}/">First</a></li>
-
-      {% for page in (1..paginator.total_pages) %}
-        {% if page == paginator.page %}
-          <li class="active"><a>{{ page }}<span class="sr-only">(current)</span></a></li>
-        {% elsif page == 1 %}
-          <li><a href="{{ site.url }}/">{{ page }}</a></li>
-        {% else %}
-          <li><a href="{{ site.paginate_path | prepend: site.baseurl | prepend: site.url | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
-        {% endif %}
-      {% endfor %}
-
-      <li><a href="{{ site.url }}/page/{{ paginator.total_pages }}/">Last</a></li>
-
-      {% if paginator.next_page %}
-        <li><a href="{{ paginator.next_page_path | prepend: site.baseurl | prepend: site.url | replace: '//', '/' }}">&raquo;</a></li>
-      {% else %}
-        <li class="disabled"><span>&raquo;</span></li>
-      {% endif %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Why Arts?</title>
+</head>
+<body>
+    <h1>Why Arts?</h1>
+    <p>
+        The links between science and philosophy, and between the arts and philosophy, are widely recognized; by contrast, the relationship between science and art tends to be less visible. In the following, we discuss this relationship and the benefits of featuring art in the cross-disciplinary magazine (MeSPhA).
+    </p>
+    <p>
+        Art and science are not separate domains but intertwined ways of knowing that share methods of observation, representation, imagination and public communication. Across history, they have flowed into one another: scientific ideas have inspired artistic forms and techniques, while artistic practices—visualization, narrative, metaphor—have shaped how knowledge is produced, taught, and shared. Supporting the dialogue between them strengthens creativity, public understanding and democratic participation in knowledge.
+    </p>
+    
+    <h2>Historical Highlights</h2>
+    <h3>Ancient Greece</h3>
+    <ul>
+        <li>Pythagoras: Early bridge between mathematics and art through the discovery of numerical ratios in musical harmony, showing how abstract number relations shape aesthetic experience.</li>
     </ul>
-  {% endif %}
-</div><!-- end #home -->
+    <h3>Humanism/Renaissance (Italy)</h3>
+    <ul>
+        <li>Dante Alighieri: Medieval model of public knowledge; by writing philosophical and natural reflections in the vernacular (Convivio), he advocated accessible dissemination of complex ideas. Dante's "Divina Commedia" is not only a literary work but also a philosophical and scientific text that reflects the cultural and intellectual climate of its era.</li>
+        <li>Leonardo da Vinci: Emblematic fusion of artistic mastery and empirical investigation—anatomical drawing, engineering sketches and proportional studies (e.g., the Vitruvian figure) illustrate how visual practice can be a scientific method.</li>
+        <li>Galileo Galilei: Blended scientific discovery with artistic insight—his study of music, perspective and visual techniques informed experimental design and observation, contributing to a renewed understanding of the cosmos.</li>
+    </ul>
+    <h3>Modern Period</h3>
+    <ul>
+        <li>Picasso: His early 20th-century rupture in form and perspective ran alongside scientific and technological advances—psychoanalysis (Freud), X-ray imaging and new optical theories—reflecting broader cultural shifts that enabled fresh conceptual frameworks.</li>
+        <li>Werner Heisenberg: Quantum mechanics introduced fundamental indeterminacy into physics, reshaping philosophical and cultural understandings of uncertainty—an influence felt across artistic movements that embraced complexity and ambiguity.</li>
+    </ul>
+
+    <h2>Added Value of Linking Science with Art</h2>
+    <ul>
+        <li>Enhances communication: Artistic techniques (visualization, storytelling, metaphor) make complex scientific ideas accessible and memorable to diverse publics.</li>
+        <li>Stimulates creativity and discovery: Cross-disciplinary practices generate novel questions, methods and prototypes that neither field would produce alone.</li>
+        <li>Improves education and literacy: Integrating art into science teaching fosters deeper understanding, critical thinking, and motivation across learning styles.</li>
+        <li>Broadens societal engagement: Culturally resonant expressions of science invite wider participation in public debates (e.g., climate, health), strengthening democratic decision-making.</li>
+        <li>Expands technological and cultural innovation: Artistic experimentation often anticipates new uses for technologies and reveals social implications early in their development.</li>
+        <li>Counters reductionism: Artistic perspectives help preserve complexity, context and values that purely reductive approaches can overlook.</li>
+    </ul>
+    <h2>Reference</h2>
+    <p>Pietro Greco, Homo. Arte e Scienza, Di Renzo Editore, 2020.</p>
+</body>
+</html>
