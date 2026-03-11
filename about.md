@@ -4,9 +4,9 @@ title: About
 permalink: /about/
 ---
 
-### Medical Statistics, Philosophy and Arts
+### Medical Statistics, Philosophy and Art
 
-"Medical Statistics, Philosophy and Arts" is an online, open-access, cross-disciplinary magazine that brings together leading experts in biostatistics, medicine, philosophy and the arts — especially those working at their intersections — to rethink and revitalise the foundations of medical statistics, a discipline central to global health.
+"Medical Statistics, Philosophy and Art" is an online, open-access, cross-disciplinary magazine that brings together leading experts in biostatistics, medicine, philosophy and the arts — especially those working at their intersections — to rethink and revitalise the foundations of medical statistics, a discipline central to global health.
 
 #### Editorial Board
 The Editorial Board selects the topics for each issue and invites the authors who will write them.
@@ -19,8 +19,8 @@ The Editorial Board selects the topics for each issue and invites the authors wh
 [Andrea Callegaro](https://www.researchgate.net/profile/Andrea-Callegaro)
 
 #### Details
-- Format: Invitation-only, non–peer-reviewed essays. One article published quarterly on the magazine website.  
-- Editorial process: The Board defines each issue’s topic and commissions the author; unsolicited submissions are not accepted.  
+- Format: Invitation-only, non–peer-reviewed essays.
+- Editorial process: The Board defines each issue’s topic and commissions the authors; unsolicited submissions are not accepted.  
 - Current status: We are contacting potential members of the Editorial Board.  
-- Proposed inaugural piece (subject to Board approval): an essay on Bruno de Finetti and how his philosophical work shaped subjective probability, transforming statistical thought.
+- Proposed inaugural piece (subject to Board approval): an essay on Bruno de Finetti and how his philosophical work (L'invenzione della verita') shaped subjective probability, transforming statistical thought.
 
