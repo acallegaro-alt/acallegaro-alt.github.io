@@ -15,7 +15,7 @@ The Editorial Board selects the topics for each issue and invites the authors wh
 - Philosophy: to be confirmed
 - Arts: to be confirmed
 
-#### Secretary / Coordinator
+#### Founder/ Secretary
 [Andrea Callegaro](https://www.researchgate.net/profile/Andrea-Callegaro)
 Email: <a href="mailto:{{site.email}}?Subject=From Blog Site:">{{site.email}}</a>
 
